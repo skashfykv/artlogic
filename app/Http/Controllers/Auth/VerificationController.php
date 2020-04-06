@@ -20,6 +20,7 @@ class VerificationController extends Controller
     */
 
     use VerifiesEmails;
+    protected $loginPath = '/crmlogin';
 
     /**
      * Where to redirect users after verification.

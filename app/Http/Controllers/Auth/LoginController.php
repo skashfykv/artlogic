@@ -20,7 +20,7 @@ class LoginController extends Controller
     */
 
     use AuthenticatesUsers;
-
+    protected $loginPath = '/crmlogin';
     /**
      * Where to redirect users after login.
      *
