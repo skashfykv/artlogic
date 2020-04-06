@@ -1,0 +1,21 @@
+// Fonts
+@font-face {
+  font-family: Cambria-Regular;
+  src: url('../fonts/Cambria-Regular.ttf');
+}
+
+@font-face {
+  font-family: Cambria-Bold;
+  src: url('../fonts/Cambria-Bold.ttf');
+}
+
+body {
+  font-family: Cambria-Regular, sans-serif !important;
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
